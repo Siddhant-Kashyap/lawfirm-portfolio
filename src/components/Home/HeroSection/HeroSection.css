@@ -1,0 +1,73 @@
+.main-section{
+    background-color: black;
+    color: white;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+.hero-heading{
+    display: block;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left,.right{
+    flex: 1;
+}
+.h2-left{
+    font-size: 70px;
+    
+}
+.h1-left{
+    font-size: 120x;
+    font-weight: bold;
+}
+.email-hero{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 438px;
+    height: 74px;
+    border-radius: 43px;
+    border: 1px solid black;
+    background-color: grey;
+}
+.email-hero >button{
+width: 137px;
+  height: 62px;
+  border-radius: 43px;
+  border: 1px solid black;
+  background-color: #E3B748;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.email-hero > input {
+  background-color: grey;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 5px;
+  border: none;
+  color:black;
+  font-weight: 400;
+}
+
+.emailIcon {
+  margin-left: 50px;
+}
