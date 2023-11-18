@@ -1,6 +1,6 @@
 .main{
     background-color: #1D1D1D;
-    height: 120vh;
+    height: 110vh;
     color: bisque;
   
 
@@ -22,3 +22,10 @@
 .left-intro,.right-intro{
     flex: 1;
 }
+.whychooseus-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+

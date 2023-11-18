@@ -1,5 +1,6 @@
 import React from "react";
 import "./Intro.css";
+import Cards from "./Card/Cards";
 const Intro = () => {
   return (
     <div className="main">
@@ -27,7 +28,11 @@ const Intro = () => {
     <div className="whychooseus">
         <div className="whychooseus-text">
             <h1>Why Choose Us?</h1></div>
-        <div className="whychooseus-cards"></div>
+        <div className="whychooseus-cards">
+            <Cards/>
+            <Cards/>
+            <Cards/>
+        </div>
 
     </div>
 
